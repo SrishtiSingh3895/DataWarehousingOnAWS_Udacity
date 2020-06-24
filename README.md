@@ -1,3 +1,7 @@
+# Data Warehousing using AWS
+
+This project was completed as a part of Udacity's Data Engineering Nanodeggree Program.
+
 # Project Description
 
 This project aims to create a database (**Sparkify**) and building an ETL pipeline to create this database from the data that has been collected. Since the user base and song database is huge, the processes and data was stored onto the cloud. The data resided in Amazon S3, in a directory of JSON logs of user activity on the app, as well as a directory with JSON metadata of the songs. The main goal of this database is to enable analysis of this data to get information about user preferences and to build a recommendation system. This was enabled by building a databse designed as a star schema with songplay table as the fact table which contains all the log data and having several dimension tables which store details of users, songs, artists and time the songs were played. The data is extracted from S3, staged in to the Redshift, and then transformed into a set of facts and dimensiona tables for their analytics team to continue finding insights in what songs the users are listening to.
